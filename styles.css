@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#image{ 
+    height: 30px;
+    width: 30px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+.black{
+    background-color: black;
+}
+.white{
+    color: white;
+ 
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#head2{
+    display: flex;
+   gap: 10px;
+}
+#head2 h4 {
+    margin-top: 6px;
+}
+nav{
+    background-color:rgb(153, 132, 132);
+    display: flex;
+  flex-direction: row;
+  gap: 15px;
+    justify-content: center;
+}
+.banner {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner button{
+    background-color: #7d1c30;
+    color:rgb(84, 117, 124);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.conatiner-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container h6{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+   
+}
+.container p{
+    text-align: center;
+   font-size: 15px;
+   margin-top: 10px;
+}
+.card-container{
+    background-color: rgb(167, 158, 158);
+}
+.card-container h2{
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.cards{
+
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    padding: 15px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    padding: 25px;
+    height: 150px;
+    width: 150px;
+}
+.card>img {
+    height: 100px;
+    width: 150px;
+}
+#img4{
+   margin-left: 200px;
+  
+}
+.card button{
+  background-color:#aa0728; 
+  padding: 5px; 
+  border: none;
+  border-radius: 6px;
+}
+button{
+    cursor: pointer;
+
+}
+button:hover {background:rgb(149, 37, 37);}
+footer{
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
